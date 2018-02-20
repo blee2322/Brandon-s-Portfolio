@@ -6,6 +6,7 @@ body {
   background-color: black;
   border-color: black;
   color: white;
+  margin-top: 20px;
 }
 
 .nav.navbar-nav.navbar-right li a {
@@ -13,7 +14,7 @@ body {
 }
 
 .nav.navbar-nav.navbar-right li a:hover {
-  color: orange;
+  color: #ADD8E6;
 }
 
 .navbar-default .navbar-brand {
@@ -21,7 +22,7 @@ body {
 }
 
 .navbar-default .navbar-brand:hover {
-  color: orange;
+  color: #ADD8E6;
 }
 
 .nav {
@@ -66,13 +67,29 @@ body {
   background-size: cover;
 }
 
-p{
+.approw {
+  text-align: center;
+}
+
+.appgif {
+  height: 340px;
+  width: 600px;
+  margin-top: 50px;
+}
+
+.apptitle {
+  font-family: 'Rajdhani', sans-serif;
   color: white;
 }
 
-.apps {
-  height: 400px;
-  width: 600px;
-  padding: 100px;
+.apptitle a {
+  text-decoration: none;
+  color: white;
 }
+
+.apptitle a:hover {
+  color: #ADD8E6;
+}
+
+
 
