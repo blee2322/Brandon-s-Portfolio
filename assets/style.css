@@ -1,0 +1,78 @@
+body {  
+  background-color: black;
+}
+
+.navbar {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
+.nav.navbar-nav.navbar-right li a {
+  color: white;
+}
+
+.nav.navbar-nav.navbar-right li a:hover {
+  color: orange;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: orange;
+}
+
+.nav {
+  padding-right: 20px;
+  font-family: 'Rajdhani', sans-serif;
+  color: black;
+  font-size: 23px;
+}
+
+.navbar-header {
+  padding-left: 20px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.navbar-brand {
+  background-color: black;
+  font-size: 26px;
+}
+
+.jumbotron .name {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
+  margin-top: 270px;
+  font-size: 80px;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin-left: 250px;
+}
+
+.jumbo {
+  font-family: 'Rajdhani', sans-serif;
+  margin-top: 30px;
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px black;
+  margin-left: 250px;
+}
+
+.jumbotron {
+  height: 890px;
+  background-image: url('barce_2017.jpg');
+  background-size: cover;
+}
+
+p{
+  color: white;
+}
+
+.apps {
+  height: 400px;
+  width: 600px;
+  padding: 100px;
+}
+
