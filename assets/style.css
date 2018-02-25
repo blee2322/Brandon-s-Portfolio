@@ -1,16 +1,28 @@
 body {  
-  background-color: black;
+  background-image: url('Portfolio_Backdrop_2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar {
   background-color: black;
   border-color: black;
   color: white;
-  margin-top: 20px;
+  /*margin-top: 20px;*/
 }
 
 .nav.navbar-nav.navbar-right li a {
   color: white;
+}
+
+.nav.navbar-nav.navbar-right .active a {
+  color: black;
+  background-color: #ADD8E6;
+}
+
+.nav.navbar-nav.navbar-right .active a:hover {
+  color: black;
+  background-color: #ADD8E6;
 }
 
 .nav.navbar-nav.navbar-right li a:hover {
@@ -75,6 +87,7 @@ body {
   height: 340px;
   width: 600px;
   margin-top: 50px;
+  border: 4px solid #ADD8E6;
 }
 
 .apptitle {
@@ -91,5 +104,24 @@ body {
   color: #ADD8E6;
 }
 
+.soon h1 {
+  color: white;
+}
 
+.carousel.slide {
+  margin-top: 60px;
+}
 
+h3 {
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.carousel.slide {
+  border: 3px solid #ADD8E6;
+}
+
+.embed-responsive.embed-responsive-16by9 {
+  margin-top: 60px;
+  border: 3px solid #ADD8E6;
+} 
