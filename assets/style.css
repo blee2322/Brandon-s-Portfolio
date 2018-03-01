@@ -112,6 +112,10 @@ body {
   margin-top: 60px;
 }
 
+.indicate {
+  bottom: -50px;
+}
+
 h3 {
   color: white;
   font-family: 'Rajdhani', sans-serif;
@@ -124,4 +128,15 @@ h3 {
 .embed-responsive.embed-responsive-16by9 {
   margin-top: 60px;
   border: 3px solid #ADD8E6;
-} 
+}
+
+.contactrow {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.bio {
+  margin-top: 200px;
+  text-align: center;
+}
+
