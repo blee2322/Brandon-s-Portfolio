@@ -1,6 +1,5 @@
 body {  
-  background-image: url('Portfolio_Backdrop_2.jpg');
-  background-repeat: no-repeat;
+  background-color: black;
   background-size: cover;
 }
 
@@ -138,5 +137,27 @@ h3 {
 .bio {
   margin-top: 200px;
   text-align: center;
+}
+
+.icons {
+  margin-top: 10px;
+}
+
+#imdb {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+#linkedin {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+}
+
+#github {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
 }
 
